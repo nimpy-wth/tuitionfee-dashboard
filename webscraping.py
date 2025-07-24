@@ -1,7 +1,7 @@
 import asyncio
 from playwright.async_api import async_playwright
 
-async def scrape_program_links(query="วิศวกรรมคอมพิวเตอร์"):
+async def search_for_programs(query="วิศวกรรม ปัญญาประดิษฐ์"):
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False) 
         page = await browser.new_page()
@@ -21,10 +21,9 @@ async def scrape_program_links(query="วิศวกรรมคอมพิว
         )
 
         print(f"Found {len(links)} results for: {query}")
-        for i, link in enumerate(links, 1):
-            print(f"{i:02d}. {link['title']} — {link['url']}")
-
-        await browser.close()
+        return links
+        # for i, link in enumerate(links, 1):
+        #     print(f"{i:02d}. {link['title']} — {link['url']}")
 
 if __name__ == "__main__":
-    asyncio.run(scrape_program_links())
+    asyncio.run(search_for_programs())
