@@ -1,6 +1,7 @@
 import asyncio
 from playwright.async_api import async_playwright
 import re
+import json
 
 async def search_for_programs(page, query):
     
@@ -113,9 +114,21 @@ async def main(query):
         await page.close() 
 
         # scrape each program's details
+        all_programs_data = []
+        print("\n Starting Detailed Scraping... \n")
         for link in program_links:
-            await scrape_details(context, link)
+            scraped_data = await scrape_details(context, link)
+            if scraped_data:
+                all_programs_data.append(scraped_data)
+        
+        # save the collected data
+        output_filename = "tcas_data.json"
+        with open(output_filename, "w", encoding="utf-8") as f:
+            json.dump(all_programs_data, f, ensure_ascii=False, indent=4)
 
+        print(f" Scraping Complete! ")
+        print(f"\nData saved to {output_filename}")
+        
         await context.close()
         await browser.close()
 
