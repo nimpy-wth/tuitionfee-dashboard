@@ -21,9 +21,6 @@ async def search_for_programs(page, query):
         
     print(f"Found {len(links)} results for: {query}")
     return links
-    # for i, link in enumerate(links, 1):
-    #     print(f"{i:02d}. {link['title']} — {link['url']}")
-    # await browser.close()
 
 async def scrape_details(context, program_info):
 
@@ -32,28 +29,39 @@ async def scrape_details(context, program_info):
         print(f"Scraping: {program_info['title']}")
         await details_page.goto(program_info['url'], timeout=60000)
         fee_text = await details_page.locator('dt:has-text("ค่าใช้จ่าย") + dd').inner_text()
-        # print(f"  └── Tuition Fee: {fee.strip()}\n")
 
         processed_fee = fee_text
 
-        per_semester_pattern = r'(\d{1,3}(?:,\d{3})*).*?(?:/|ต่อ)ภาคการศึกษา'
-        per_program_pattern = r'(\d{1,3}(?:,\d{3})*).*?ตลอดหลักสูตร'
-
-        semester_match = re.search(per_semester_pattern, fee_text)
-        if semester_match:
-            fee_str = semester_match.group(1).replace(',', '')
-            fee_amount = int(fee_str)
-            processed_fee = f"{fee_amount:,.0f} per semester"
-
+        if not fee_text or fee_text == "_":
+            processed_fee = "Not available"
+        
         else:
-            program_match = re.search(per_program_pattern, fee_text)
-            if program_match:
-                total_fee_str = program_match.group(1).replace(',', '')
-                total_fee = int(total_fee_str)
-                
-                # Calculate semester fee by dividing by 8
-                estimated_semester_fee = total_fee / 8
-                processed_fee = f"{total_fee:,.0f} per program (Est. {estimated_semester_fee:,.0f} per semester)"
+            semester_keywords = ["ภาคการศึกษา", "ภาคเรียน", "เทอม"]
+            program_keywords = ["ตลอดหลักสูตร"]
+
+            number_pattern = r'(\d[\d,.]*)'
+            number_match = re.search(number_pattern, fee_text)
+
+            # check for "per semester" keywords
+            if any(keyword in fee_text for keyword in semester_keywords):
+                if number_match:
+                    fee_str = number_match.group(1).replace(',', '').split('.')[0]
+                    fee_amount = int(fee_str)
+                    processed_fee = f"{fee_amount:,.0f} per semester"
+
+            # check for "per program" keywords
+            elif any(keyword in fee_text for keyword in program_keywords):
+                if number_match:
+                    total_fee_str = number_match.group(1).replace(',', '').split('.')[0]
+                    total_fee = int(total_fee_str)
+                    estimated_semester_fee = total_fee / 8
+                    processed_fee = f"{total_fee:,.0f} per program (Est. {estimated_semester_fee:,.0f} per semester)"
+
+            # no keywords found
+            elif number_match and "http" not in fee_text:
+                fee_str = number_match.group(1).replace(',', '').split('.')[0]
+                fee_amount = int(fee_str)                    
+                processed_fee = f"{fee_amount:,.0f} (description unclear)"
 
         print(f"  └── Tuition Fee: {processed_fee}\n")
 
@@ -80,4 +88,4 @@ async def main(query):
         await browser.close()
 
 if __name__ == "__main__":
-    asyncio.run(main(query="วิศวกรรมปัญญาประดิษฐ์"))
+    asyncio.run(main(query="วิศวกรรม ปัญญาประดิษฐ์"))
