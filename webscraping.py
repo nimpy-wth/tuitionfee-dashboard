@@ -27,16 +27,19 @@ async def search_for_programs(page, query):
 async def scrape_details(context, program_info):
 
     details_page = await context.new_page()
-    await details_page.goto(program_info['url'], timeout=60000)
-
-    fee = await details_page.locator('dt:has-text("ค่าใช้จ่าย") + dd').inner_text()
-    print(f"  └── Tuition Fee: {fee.strip()}\n")
-
-    await details_page.close()
+    try:
+        print(f"Scraping: {program_info['title']}")
+        await details_page.goto(program_info['url'], timeout=60000)
+        fee = await details_page.locator('dt:has-text("ค่าใช้จ่าย") + dd').inner_text()
+        print(f"  └── Tuition Fee: {fee.strip()}\n")
+    except Exception as e:
+        print(f"  └── Could not find information for this program.\n")
+    finally:
+        await details_page.close()
 
 async def main(query):
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=False)
+        browser = await p.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
 
