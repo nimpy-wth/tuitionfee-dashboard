@@ -32,6 +32,14 @@ async def scrape_details(context, program_info):
 
         processed_fee = fee_text
 
+        program_type = ""
+        try:
+            program_type_locator = details_page.locator('dt:has-text("ประเภทหลักสูตร") + dd')
+            await program_type_locator.wait_for(timeout=1000)
+            program_type = await program_type_locator.inner_text()
+        except Exception:
+            pass
+
         if not fee_text or fee_text == "_":
             processed_fee = "Not available"
         
@@ -63,6 +71,13 @@ async def scrape_details(context, program_info):
                 fee_amount = int(fee_str)                    
                 processed_fee = f"{fee_amount:,.0f} (description unclear)"
 
+                # handle specific program type
+                if "ภาษาไทย ปกติ" in program_type:
+                    processed_fee = f"{fee_amount:,.0f} per program (Est. {fee_amount / 8:,.0f} per semester)"
+                else:
+                    processed_fee = f"{fee_amount:,.0f} (description unclear)"
+        
+        print(f"  ├── Program Type: {program_type}")
         print(f"  └── Tuition Fee: {processed_fee}\n")
 
     except Exception as e:
