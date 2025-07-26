@@ -91,7 +91,7 @@ async def scrape_details(context, program_info):
                     data["tuition_per_semester"] = fee_amount
         
         print(f"Scraping: {data['program_name']}")
-        print(f"  ├── Degree (EN): {data['degree_name_en']}")
+        print(f"  ├── University : {data['university']}")
         print(f"  ├── Program Type: {data['program_type']}")
         print(f"  └── Tuition Fee (per semester): {data['tuition_per_semester']}\n")
 
@@ -103,24 +103,38 @@ async def scrape_details(context, program_info):
     finally:
         await details_page.close()
 
-async def main(query):
+async def main(queries):
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
 
-        # get all program links
-        program_links = await search_for_programs(page, query)
-        await page.close() 
+        scraped_program_map = {}
 
-        # scrape each program's details
-        all_programs_data = []
-        print("\n Starting Detailed Scraping... \n")
-        for link in program_links:
-            scraped_data = await scrape_details(context, link)
-            if scraped_data:
-                all_programs_data.append(scraped_data)
-        
+        print(f"Starting to scrape for {len(queries)} queries...")
+
+        for query in queries:
+            print(f"\nSearching for: '{query}'...")
+            program_links = await search_for_programs(page, query)
+
+            print(f"--- Processing results for query: '{query}' ---")
+            for link in program_links:
+                url = link['url']
+                program_name = link['title'].split('\n')[0]
+
+                # check if this program is already in collection
+                if url in scraped_program_map:
+                    scraped_program_map[url]['keywords'].append(query)
+                    print(f"  └── Found duplicate: '{program_name}'. Appending keyword '{query}'.")
+                else:
+                    scraped_data = await scrape_details(context, link)
+                    if scraped_data:
+                        scraped_data['keywords'] = [query]
+                        scraped_program_map[url] = scraped_data
+
+        # convert dictionary to list for JSON
+        all_programs_data = list(scraped_program_map.values())
+
         # save the collected data
         output_filename = "tcas_data.json"
         with open(output_filename, "w", encoding="utf-8") as f:
@@ -133,4 +147,13 @@ async def main(query):
         await browser.close()
 
 if __name__ == "__main__":
-    asyncio.run(main(query="วิศวกรรมปัญญาประดิษฐ์"))
+    # asyncio.run(main(query="วิศวกรรมปัญญาประดิษฐ์"))
+    search_queries = [
+        "วิศวกรรมคอมพิวเตอร์",
+        "วิศวกรรมปัญญาประดิษฐ์",    
+        "วิศวกรรมหุ่นยนต์",
+        "วิศวกรรม ปัญญาประดิษฐ์",
+        "วิศวกรรมซอฟต์แวร์"
+    ]
+    
+    asyncio.run(main(queries=search_queries))
