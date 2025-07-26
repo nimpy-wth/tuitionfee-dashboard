@@ -55,50 +55,56 @@ async def scrape_details(context, program_info):
         data["program_type"] = await get_text_by_dt("ประเภทหลักสูตร")
         fee_text = await get_text_by_dt("ค่าใช้จ่าย")
         data["raw_fee_text"] = fee_text
-
-        processed_fee = "Not available"
-        if fee_text and fee_text != "_":
-            semester_keywords = ["ภาคการศึกษา", "ภาคเรียน", "เทอม"]
-            program_keywords = ["ตลอดหลักสูตร"]
-
-            number_pattern = r'(\d[\d,.]*)'
-            number_match = re.search(number_pattern, fee_text)
-
-            # check for "per semester" keywords
-            if any(keyword in fee_text for keyword in semester_keywords):
-                if number_match:
-                    fee_amount = int(number_match.group(1).replace(',', '').split('.')[0])
-                    data["tuition_per_semester"] = fee_amount
-                    processed_fee = f"{fee_amount:,.0f} per semester"
-
-            # check for "per program" keywords
-            elif any(keyword in fee_text for keyword in program_keywords):
-                if number_match:
-                    total_fee = int(number_match.group(1).replace(',', '').split('.')[0])
-                    est_semester_fee = round(total_fee / 8)
-                    data["tuition_per_semester"] = est_semester_fee
-                    processed_fee = f"{total_fee:,.0f} per program (Est. {est_semester_fee:,.0f} per semester)"
-
-            # no keywords found
-            elif number_match and "http" not in fee_text:
-                fee_amount = int(number_match.group(1).replace(',', '').split('.')[0])
-                if "ภาษาไทย ปกติ" in (data["program_type"] or ""):
-                    est_fee = round(fee_amount / 8)
-                    data["tuition_per_semester"] = est_fee
-                    processed_fee = f"{fee_amount:,.0f} per program (Est. {est_fee:,.0f} per semester)"
-                else:
-                    processed_fee = f"{fee_amount:,.0f} (description unclear)"
-                    data["tuition_per_semester"] = fee_amount
         
+        tuition = None
+        if fee_text and fee_text != "_":
+            
+            def clean_fee(num_str):
+                return int(re.sub(r'[^\d]', '', num_str.split('.')[0]))
+
+            # find "per semester" fees
+            semester_patterns = [
+                r'([\d,.]+)\s*(?:บาท)?\s*ต่อ(?:ภาคเรียน|ภาคการศึกษา|เทอม)',
+                r'(?:ภาคเรียน|ภาคการศึกษา|เทอม)ละ\s*([\d,.]+)',           
+                r'เทอมแรก\s*([\d,.]+)',                                
+                r'\(?([\d,.]+)\s*บาทในภาคการศึกษาแรก\)?',                 
+                r'\(?([\d,.]+)\s*ต่อภาคเรียน\)?'                       
+            ]
+            for pattern in semester_patterns:
+                match = re.search(pattern, fee_text)
+                if match:
+                    tuition = clean_fee(match.group(1))
+                    break
+            
+            if tuition is None:
+                # find "per program" fees and estimate
+                program_pattern = r'ตลอดหลักสูตร\s*([\d,.]+)'
+                match = re.search(program_pattern, fee_text)
+                if match:
+                    total_fee = clean_fee(match.group(1))
+                    tuition = round(total_fee / 8)
+                
+            if tuition is None:
+                # no keywords found
+                number_match = re.search(r'(\d[\d,.]*)', fee_text)
+                if number_match:
+                    fee_amount = clean_fee(number_match.group(1))
+                    if fee_amount > 50000 and "ภาษาไทย ปกติ" in (data["program_type"] or ""):
+                        tuition = round(fee_amount / 8)
+                    else:
+                        tuition = fee_amount
+
+        data["tuition_per_semester"] = tuition
+
         print(f"Scraping: {data['program_name']}")
-        print(f"  ├── University : {data['university']}")
-        print(f"  ├── Program Type: {data['program_type']}")
-        print(f"  └── Tuition Fee (per semester): {data['tuition_per_semester']}\n")
+        print(f" ├── University : {data['university']}")
+        print(f" ├── Program Type: {data['program_type']}")
+        print(f" └── Tuition Fee (per semester): {data['tuition_per_semester']}\n")
 
         return data
 
     except Exception as e:
-        print(f"  └── Could not find information for this program. Error: {e}\n")
+        print(f" └── Could not find information for this program. Error: {e}\n")
         return None
     finally:
         await details_page.close()
@@ -147,12 +153,10 @@ async def main(queries):
         await browser.close()
 
 if __name__ == "__main__":
-    # asyncio.run(main(query="วิศวกรรมปัญญาประดิษฐ์"))
     search_queries = [
         "วิศวกรรมคอมพิวเตอร์",
-        "วิศวกรรมปัญญาประดิษฐ์",    
+        "วิศวกรรมปัญญาประดิษฐ์",
         "วิศวกรรมหุ่นยนต์",
-        "วิศวกรรม ปัญญาประดิษฐ์",
         "วิศวกรรมซอฟต์แวร์"
     ]
     
