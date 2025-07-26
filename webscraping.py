@@ -78,11 +78,16 @@ async def scrape_details(context, program_info):
             
             if tuition is None:
                 # find "per program" fees and estimate
-                program_pattern = r'ตลอดหลักสูตร\s*([\d,.]+)'
-                match = re.search(program_pattern, fee_text)
-                if match:
-                    total_fee = clean_fee(match.group(1))
-                    tuition = round(total_fee / 8)
+                program_patterns = [
+                    r'([\d,.]+)\s*(?:บาท)?\s*ตลอดหลักสูตร',
+                    r'ตลอดหลักสูตร\s*([\d,.]+)'
+                ]
+                for pattern in program_patterns:
+                    match = re.search(pattern, fee_text)
+                    if match:
+                        total_fee = clean_fee(match.group(1))
+                        tuition = round(total_fee / 8)
+                        break
                 
             if tuition is None:
                 # no keywords found
@@ -90,6 +95,8 @@ async def scrape_details(context, program_info):
                 if number_match:
                     fee_amount = clean_fee(number_match.group(1))
                     if fee_amount > 50000 and "ภาษาไทย ปกติ" in (data["program_type"] or ""):
+                        tuition = round(fee_amount / 8)
+                    elif fee_amount > 200000 and "นานาชาติ" in (data["program_type"] or ""):
                         tuition = round(fee_amount / 8)
                     else:
                         tuition = fee_amount
