@@ -42,12 +42,12 @@ app.layout = html.Div(className='main-container', children=[
             html.H4("Filter Data", style={'textAlign': 'center', 'marginBottom': '20px'}),
             html.Div(className='row', children=[
                 html.Div(style={'flex': 1, 'marginRight': '10px'}, children=[
-                    html.Label("Keyword"),
+                    html.Label("Programs"),
                     dcc.Dropdown(
                         id='keyword-dropdown',
                         options=[{'label': k, 'value': k} for k in all_keywords],
                         multi=True,
-                        placeholder="Select keywords..."
+                        placeholder="Select programs..."
                     )
                 ]),
                 html.Div(style={'flex': 1, 'marginRight': '10px'}, children=[
@@ -65,7 +65,7 @@ app.layout = html.Div(className='main-container', children=[
                         id='round-dropdown',
                         options=[{'label': r, 'value': r} for r in round_names],
                         multi=True,
-                        placeholder="Select admission rounds (with 'รับ')..."
+                        placeholder="Select admission rounds..."
                     )
                 ])
             ])
@@ -75,12 +75,12 @@ app.layout = html.Div(className='main-container', children=[
     html.Div(className='row', id='kpi-row'),
 
     html.Div(className='row', children=[
-        html.Div(dcc.Graph(id='avg-tuition-bar'), className='card chart-card two-thirds'),
-        html.Div(dcc.Graph(id='program-type-donut'), className='card chart-card one-third')
+        html.Div(dcc.Graph(id='avg-tuition-bar'), className='card chart-card two-thirds')
     ]),
 
     html.Div(className='row', children=[
-        html.Div(dcc.Graph(id='tuition-dist-hist'), className='card chart-card full-width')
+        html.Div(dcc.Graph(id='tuition-dist-hist'), className='card chart-card one-half'),
+        html.Div(dcc.Graph(id='program-type-donut'), className='card chart-card one-half'),
     ]),
 
     # Download
@@ -91,21 +91,23 @@ app.layout = html.Div(className='main-container', children=[
             })
     ]),
 
-    # Table
+    # Data Table
     html.Div(className='card data-table-card', children=[
         html.H3("Explore Program Data"),
         dash_table.DataTable(
             id='data-table',
             columns=[
                 {"name": "Program Name", "id": "program_name", "presentation": "markdown"},
-                *[
-                    {"name": i.replace('_', ' ').title(), "id": i}
-                    for i in df.columns if i not in ['url', 'program_name']
-                ]
+                {"name": "University", "id": "university"},
+                {"name": "Degree Name (EN)", "id": "degree_name_en"},
+                {"name": "Program Type", "id": "program_type"},
+                {"name": "Tuition Fee", "id": "tuition_fee"},
             ],
             style_cell={'fontFamily': 'Lato, sans-serif', 'padding': '10px'},
             style_header={'backgroundColor': '#f8f9fa', 'fontWeight': 'bold'},
             page_size=10,
+            sort_action='native',
+            filter_action='native'
         )
     ])
 ])
@@ -138,14 +140,7 @@ def update_dashboard(selected_keywords, selected_types, selected_rounds):
             if col in dff.columns:
                 dff = dff[dff[col].fillna('').str.contains("รับ")]
 
-    # Add Markdown links
-    dff['program_name'] = dff.apply(
-        lambda row: f"[{row['program_name']}]({row['url']})", axis=1
-    )
-
     dff_clean = dff.dropna(subset=['tuition_per_semester'])
-
-    # KPIs
     total_programs = len(dff)
     avg_tuition = int(dff_clean['tuition_per_semester'].mean()) if not dff_clean.empty else 0
     university_count = dff['university'].nunique()
@@ -168,45 +163,40 @@ def update_dashboard(selected_keywords, selected_types, selected_rounds):
         ])
     ]
 
-    # Charts
+    # Bar Chart
     tuition_bar_df = dff_clean.groupby('university')['tuition_per_semester'].mean().round(0).astype(int).sort_values(ascending=False).reset_index().head(15)
+    fig_bar = px.bar(
+        tuition_bar_df, x='tuition_per_semester', y='university', orientation='h', text='tuition_per_semester'
+    )
+    fig_bar.update_traces(marker_color="#2c3e50", texttemplate='%{text:,.0f}', textposition='inside')
+    fig_bar.update_layout(title_text="Average Tuition per Semester (Top 15)", yaxis=dict(autorange="reversed"))
+
+    # Donut Chart
     program_type_counts = dff['program_type'].value_counts().reset_index()
     program_type_counts.columns = ['program_type', 'count']
+    fig_donut = px.pie(program_type_counts, names='program_type', values='count', hole=0.5,
+                    color_discrete_sequence=px.colors.sequential.Teal)
+    fig_donut.update_layout(title_text="Program Type Distribution")
 
-    PRIMARY_COLOR = "#2c3e50"
-    ACCENT_COLOR = "#f39c12"
+    # Histogram
+    fig_hist = px.histogram(dff_clean, x='tuition_per_semester', nbins=30)
+    fig_hist.update_traces(marker_color="#f39c12")
+    fig_hist.update_layout(title_text="Distribution of Semester Tuition Fees")
 
-    def style_fig(fig, title):
-        return fig.update_layout(
-            title_text=title,
-            font=dict(family="Lato, sans-serif", color=PRIMARY_COLOR),
-            paper_bgcolor='rgba(0,0,0,0)',
-            plot_bgcolor='rgba(0,0,0,0)',
-            margin=dict(l=40, r=40, t=60, b=40)
-        )
-
-    fig_bar = px.bar(
-        tuition_bar_df, x='tuition_per_semester', y='university', orientation='h',
-        text='tuition_per_semester'
+    # Table
+    dff['program_name'] = dff.apply(
+        lambda row: f"[{row['program_name']}]({row['url']})" if pd.notna(row['url']) else row['program_name'], axis=1
     )
-    fig_bar.update_traces(marker_color=PRIMARY_COLOR, texttemplate='%{text:,.0f}', textposition='inside')
-    style_fig(fig_bar, "Average Tuition per Semester (Top 15)")
 
-    fig_donut = px.pie(
-        program_type_counts, names='program_type', values='count', hole=0.5,
-        color_discrete_sequence=[PRIMARY_COLOR, ACCENT_COLOR, "#34495e", "#95a5a6"]
-    )
-    style_fig(fig_donut, "Program Type Distribution")
+    table_data = dff[['program_name', 'university', 'degree_name_en', 'program_type', 'tuition_fee']].copy()
+    for col in table_data.columns:
+        table_data[col] = table_data[col].apply(lambda x: ', '.join(map(str, x)) if isinstance(x, list) else x)
 
-    fig_hist = px.histogram(dff_clean, x='tuition_per_semester', nbins=20)
-    fig_hist.update_traces(marker_color=ACCENT_COLOR)
-    style_fig(fig_hist, "Distribution of Semester Tuition Fees")
-
-    table_data = dff.to_dict('records')
+    # Download link
     csv_string = dff.to_csv(index=False, encoding='utf-8-sig')
     csv_href = "data:text/csv;charset=utf-8," + csv_string
 
-    return kpi_cards, fig_bar, fig_donut, fig_hist, table_data, csv_href
+    return kpi_cards, fig_bar, fig_donut, fig_hist, table_data.to_dict('records'), csv_href
 
 if __name__ == '__main__':
     app.run(debug=True)
