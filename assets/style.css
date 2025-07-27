@@ -1,0 +1,96 @@
+/* --- Global Styles & Variables --- */
+:root {
+    --primary-color: #2c3e50; /* A dark slate blue */
+    --secondary-color: #34495e; /* A slightly lighter slate */
+    --accent-color: #f39c12; /* A vibrant orange */
+    --background-color: #f0f2f5; /* Light grey background */
+    --card-background-color: #ffffff;
+    --text-color: #333333;
+    --light-text-color: #ffffff;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Layout Containers --- */
+.main-container {
+    padding: 25px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+/* --- Card Component --- */
+.card {
+    background-color: var(--card-background-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Specific Component Styles --- */
+.header {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.kpi-card {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    color: var(--light-text-color);
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+}
+
+.kpi-card .kpi-number {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.kpi-card .kpi-title {
+    font-size: 1em;
+    margin: 0;
+}
+
+.kpi-card .kpi-icon {
+    font-size: 1.5em;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+
+.chart-card {
+    flex: 1;
+}
+
+/* Specific flex rules for rows with different item counts */
+.chart-card.full-width {
+    flex-basis: 100%;
+}
+.chart-card.two-thirds {
+    flex-basis: 65%;
+}
+.chart-card.one-third {
+    flex-basis: 30%;
+}
+
+.data-table-card {
+    flex-basis: 100%;
+}
