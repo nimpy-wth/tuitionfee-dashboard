@@ -1,0 +1,1553 @@
+[
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "url": "https://course.mytcas.com/programs/10010121300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25500,
+        "raw_fee_text": "ภาคการศึกษาต้นและภาคการศึกษาปลาย ภาคการศึกษาละ 25,500 บาท ภาคฤดูร้อน(ถ้ามี) ภาคการศึกษาละ 6,375 บาท ดูรายละเอียดเพิ่มเติม https://www.reg.chula.ac.th/th/information/fee/",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 60 คน",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 80 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์และเทคโนโลยีดิจิทัล (ภาษาไทย ปกติ)",
+        "university": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "url": "https://course.mytcas.com/programs/10010121300599A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering and Digital Technology",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25500,
+        "raw_fee_text": "ภาคการศึกษาต้นและภาคการศึกษาปลาย ภาคการศึกษาละ 25,500 บาท ภาคฤดูร้อน(ถ้ามี) ภาคการศึกษาละ 6,375 บาท ดูรายละเอียดเพิ่มเติม https://www.reg.chula.ac.th/th/information/fee/",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 220 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "รับ 105 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเกษตรศาสตร์ บางเขน",
+        "url": "https://course.mytcas.com/programs/10020105300501A",
+        "degree_name_en": "B.Eng. (Computer Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 17300,
+        "raw_fee_text": null,
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 36 คน",
+            "รอบ 2 Quota": "รับ 14 คน",
+            "รอบ 3 Admission": "รับ 35 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเกษตรศาสตร์ กำแพงแสน",
+        "url": "https://course.mytcas.com/programs/10020220300501A",
+        "degree_name_en": "B.Eng. (Computer Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 19500,
+        "raw_fee_text": "156,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 20 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมคอมพิวเตอร์และสารสนเทศศาสตร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเกษตรศาสตร์ ศรีราชา",
+        "url": "https://course.mytcas.com/programs/10020328300502A",
+        "degree_name_en": "B.Eng. (Computer Engineering and Informatics)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 29100,
+        "raw_fee_text": "232,800",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 53 คน",
+            "รอบ 2 Quota": "รับ 34 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเกษตรศาสตร์ เฉลิมพระเกียรติ จ.สกลนคร",
+        "url": "https://course.mytcas.com/programs/10020430300501A",
+        "degree_name_en": "B.Eng. (Computer Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 15000,
+        "raw_fee_text": null,
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 92 คน",
+            "รอบ 2 Quota": "รับ 86 คน",
+            "รอบ 3 Admission": "รับ 40 คน",
+            "รอบ 4 Direct Admission": "รับ 15 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมศาสตรบัณฑิต (วิศวกรรมคอมพิวเตอร์) วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยขอนแก่น ขอนแก่น",
+        "url": "https://course.mytcas.com/programs/10030104300501A",
+        "degree_name_en": "Bachelor of Engineering (Computer Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 20000,
+        "raw_fee_text": "ค่าธรรมเนียมการศึกษา (ชาวไทย) 20000 บาท/เทอม",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 32 คน",
+            "รอบ 2 Quota": "รับ 38 คน",
+            "รอบ 3 Admission": "รับ 34 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเชียงใหม่ วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10040106300501A",
+        "degree_name_en": null,
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 23000,
+        "raw_fee_text": "184,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 69 คน",
+            "รอบ 2 Quota": "รับ 43 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมระบบสารสนเทศและเครือข่าย (นานาชาติ)",
+        "university": "มหาวิทยาลัยเชียงใหม่ วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10040106300502E",
+        "degree_name_en": null,
+        "program_type": "นานาชาติ",
+        "tuition_fee": 50000,
+        "raw_fee_text": "400,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 31 คน",
+            "รอบ 2 Quota": "รับ 38 คน",
+            "รอบ 3 Admission": "รับ 8 คน",
+            "รอบ 4 Direct Admission": "รับ 12 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+        "url": "https://course.mytcas.com/programs/10050210300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 18900,
+        "raw_fee_text": "18,900 บาท ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 18 คน",
+            "รอบ 2 Quota": "รับ 23 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.สาขาวิชาวิศวกรรมดิจิทัล และวิศวกรรมคอมพิวเตอร์ (หลักสูตรนานาชาติ) (SIIT)",
+        "university": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+        "url": "https://course.mytcas.com/programs/10050222300501E",
+        "degree_name_en": null,
+        "program_type": "นานาชาติ",
+        "tuition_fee": 101200,
+        "raw_fee_text": "101,200 บาท ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 159 คน",
+            "รอบ 2 Quota": "รับ 50 คน",
+            "รอบ 3 Admission": "รับ 15 คน",
+            "รอบ 4 Direct Admission": "รับ 10 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยมหิดล ศาลายา",
+        "url": "https://course.mytcas.com/programs/10060112300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 30000,
+        "raw_fee_text": "30,000 บาท ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 26 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยศรีนครินทรวิโรฒ องครักษ์",
+        "url": "https://course.mytcas.com/programs/10090209300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25000,
+        "raw_fee_text": "200,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 38 คน",
+            "รอบ 2 Quota": "รับ 7 คน",
+            "รอบ 3 Admission": "รับ 15 คน",
+            "รอบ 4 Direct Admission": "รับ 8 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยสงขลานครินทร์ หาดใหญ่",
+        "url": "https://course.mytcas.com/programs/10100101300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 18000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 18,000.-/ภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 75 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมปัญญาประดิษฐ์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยสงขลานครินทร์ หาดใหญ่",
+        "url": "https://course.mytcas.com/programs/10100101300502A",
+        "degree_name_en": "Bachelor of Engineering Program in Artificial Intelligence Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 28000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 28,000.-/ภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 210 คน",
+            "รอบ 2 Quota": "รับ 5 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์",
+            "วิศวกรรมปัญญาประดิษฐ์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมดิจิทัล (หลักสูตรนานาชาติ)",
+        "university": "มหาวิทยาลัยสงขลานครินทร์ ภูเก็ต",
+        "url": "https://course.mytcas.com/programs/10100329300501E",
+        "degree_name_en": "Bachelor of Engineering Programe in Digital Engineering (International Program)",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 48000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 48,000 บาทต่อภาคการศึกษา (เรียน 8 ภาคการศึกษา) หรือตลอดหลักสูตร 384,000 บาท และต้องชำระค่าธรรมเนียมแรกเข้าอีก 15,000 บาท",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 600 คน",
+            "รอบ 2 Quota": "รับ 245 คน",
+            "รอบ 3 Admission": "รับ 120 คน",
+            "รอบ 4 Direct Admission": "รับ 120 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ ปริญญาตรี 4 ปี (หลักสูตรนานาชาติ) สาขาวิชาวิศวกรรมคอมพิวเตอร์ (หลักสูตรนานาชาติ) - วศ.บ. 4 ปี",
+        "university": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี บางมด",
+        "url": "https://course.mytcas.com/programs/10140107300502E",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering (International Program) 4-year undergraduate program ( international )",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 70000,
+        "raw_fee_text": "https://kmutt.me/TUITION-FEES-BS-KMUTT",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "",
+            "รอบ 2 Quota": "รับ 44 คน",
+            "รอบ 3 Admission": "รับ 9 คน",
+            "รอบ 4 Direct Admission": "รับ 21 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ ปริญญาตรี 4 ปี สาขาวิชาวิศวกรรมคอมพิวเตอร์ - วศ.บ. 4 ปี (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี บางมด",
+        "url": "https://course.mytcas.com/programs/10140107300507A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering 4-year undergraduate program",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 35000,
+        "raw_fee_text": "https://kmutt.me/TUITION-FEES-BS-KMUTT",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "",
+            "รอบ 2 Quota": "รับ 33 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": ""
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "ครุศาสตร์อุตสาหกรรมบัณฑิต สาขาวิชาวิศวกรรมไฟฟ้า ปริญญาตรี 5 ปี สาขาวิชาวิศวกรรมไฟฟ้า - วิชาโทวิศวกรรมคอมพิวเตอร์ (ค.อ.บ. 5 ปี) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี บางมด",
+        "url": "https://course.mytcas.com/programs/10140108701904A?major=C",
+        "degree_name_en": "Bachelor of Science in Industrial Education Program in Electrical Engineering 5-year undergraduate program",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 35000,
+        "raw_fee_text": "https://kmutt.me/TUITION-FEES-BS-KMUTT",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "",
+            "รอบ 2 Quota": "",
+            "รอบ 3 Admission": "รับ 1 คน",
+            "รอบ 4 Direct Admission": ""
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ กรุงเทพฯ",
+        "url": "https://course.mytcas.com/programs/10150101300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25000,
+        "raw_fee_text": "25,000 ต่อภาคเรียน",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 29 คน",
+            "รอบ 2 Quota": "รับ 23 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ลาดกระบัง",
+        "url": "https://course.mytcas.com/programs/10160101300501A",
+        "degree_name_en": "B.Eng. Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25000,
+        "raw_fee_text": "25,000 ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 85 คน",
+            "รอบ 2 Quota": "รับ 45 คน",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "รับ 5 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (หลักสูตรนานาชาติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ลาดกระบัง",
+        "url": "https://course.mytcas.com/programs/10160101300503E",
+        "degree_name_en": "B.Eng. Computer Engineering (International Program)",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 90000,
+        "raw_fee_text": "90,000 ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 80 คน",
+            "รอบ 2 Quota": "รับ 15 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": "รับ 10 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์และความปลอดภัยไซเบอร์ (ภาษาไทย ปกติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ลาดกระบัง",
+        "url": "https://course.mytcas.com/programs/10160101300504A",
+        "degree_name_en": "B.Eng. Computer Engineering and Cyber Security",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 50000,
+        "raw_fee_text": "50,000 ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 115 คน",
+            "รอบ 2 Quota": "รับ 30 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ชุมพรเขตรอุดมศักดิ์ จังหวัดชุมพร",
+        "url": "https://course.mytcas.com/programs/10160220300501A",
+        "degree_name_en": "B.Eng. Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 20000,
+        "raw_fee_text": "20,000 บาท ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 55 คน",
+            "รอบ 2 Quota": "รับ 22 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "รับ 10 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "กลุ่มวิศวกรรมศาสตร์ (ประกอบด้วยสาขาวิชาวิศวกรรมการผลิตอัตโนมัติและหุ่นยนต์, วิศวกรรมเกษตรและอาหาร, วิศวกรรมคอมพิวเตอร์, วิศวกรรมเคมี, วิศวกรรมเครื่องกล, วิศวกรรมปิโตรเลียมและเทคโนโลยีธรณี, วิศวกรรมไฟฟ้า, วิศวกรรมโทรคมนาคม, วิศวกรรมยานยนต์,วิศวกรรมโยธา, วิศวกรรมขนส่งและโลจิสติส์, วิศวกรรมเซรามิก, วิศวกรรมพอลิเมอร์, วิศวกรรมโลหการ, วิศวกรรมสิ่งแวดล้อม, วิศวกรรมธรณี, วิศวกรรมอากาศยาน, วิศวกรรมอิเล็กทรอนิกส์, วิศวกรรมอุตสาหการ เรียนรวมกันปี 1 แยกสาขาปี 2) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีสุรนารี วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10170107300001A",
+        "degree_name_en": "Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25000,
+        "raw_fee_text": null,
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 2100 คน",
+            "รอบ 2 Quota": "รับ 500 คน",
+            "รอบ 3 Admission": "รับ 300 คน",
+            "รอบ 4 Direct Admission": "รับ 300 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีสุรนารี วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10170107300501A",
+        "degree_name_en": "Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 24638,
+        "raw_fee_text": "197,100",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 10 คน",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยนเรศวร วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10200120300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 16000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 16,000 ต่อภาคเรียน",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 31 คน",
+            "รอบ 2 Quota": "รับ 25 คน",
+            "รอบ 3 Admission": "รับ 60 คน",
+            "รอบ 4 Direct Admission": "รับ 20 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมศาสตรบัณฑิต สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยวลัยลักษณ์",
+        "url": "https://course.mytcas.com/programs/10230125300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering and Artificial Intelligence",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 32700,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 32,700 ต่อภาคเรียน",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 80 คน",
+            "รอบ 2 Quota": "รับ 50 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "รับ 5 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (จัดการเรียนการสอนเป็นภาษาอังกฤษ) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "url": "https://course.mytcas.com/programs/10240113300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 28000,
+        "raw_fee_text": "ค่าธรรมเนียมการศึกษา 28,000 ต่อภาคการศึกษา หรือ 224,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 217 คน",
+            "รอบ 2 Quota": "รับ 80 คน",
+            "รอบ 3 Admission": "รับ 70 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยนราธิวาสราชนครินทร์",
+        "url": "https://course.mytcas.com/programs/10250105300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 14000,
+        "raw_fee_text": "112,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 10 คน",
+            "รอบ 2 Quota": "รับ 27 คน",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "รับ 5 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยนครพนม",
+        "url": "https://course.mytcas.com/programs/10260106300502A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 9025,
+        "raw_fee_text": "อัตราค่าเล่าเรียน โดยประมาณ 72,200 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "รับ 30 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยพะเยา",
+        "url": "https://course.mytcas.com/programs/10270102300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 21000,
+        "raw_fee_text": "https://admission.up.ac.th/uploads/admission/media/file/66ed2582eb5b7LIYYa.pdf",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 60 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยกาฬสินธุ์ วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10280104300501A",
+        "degree_name_en": "B.Eng.(Computer Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 10150,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 10,150 ต่อภาคเรียน",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 10 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "รับ 20 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (วศ.บ. (วิศวกรรมคอมพิวเตอร์)) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยรามคำแหง",
+        "url": "https://course.mytcas.com/programs/10340101300501A",
+        "degree_name_en": "Bechelor of Engineering Program in Computer Engineering (B. Eng. (Computer Engineering))",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 26000,
+        "raw_fee_text": "เทอมแรก 33,000 บาท เทอมต่อไปเทอมละ 26,000 บาท (เหมาจ่ายรายเทอม ลงทะเบียนได้ไม่เกิน 22 - 24 หน่วยกิต) หลักสูตร 4 ปี",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 20 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 80 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (หลักสูตรนานาชาติ) (วศ.บ. (วิศวกรรมคอมพิวเตอร์))",
+        "university": "มหาวิทยาลัยรามคำแหง",
+        "url": "https://course.mytcas.com/programs/10340101300506E",
+        "degree_name_en": "Bechelor of Engineering Program in Computer Engineering (International Program) (B. Eng. (Computer Engineering))",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 63260,
+        "raw_fee_text": "ตลอดหลักสูตร 403,260 บาท (63,260 บาทในภาคการศึกษาแรก)",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 50 คน",
+            "รอบ 4 Direct Admission": "รับ 30 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "สถาบันเทคโนโลยีจิตรลดา",
+        "url": "https://course.mytcas.com/programs/10350103300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 31500,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 31,500 ต่อภาคเรียน หรือ 252,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 21 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยราชภัฏพิบูลสงคราม",
+        "url": "https://course.mytcas.com/programs/21520106300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 12000,
+        "raw_fee_text": "ค่าบำรุงการศึกษา 12,000 บาท ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 60 คน",
+            "รอบ 2 Quota": "รับ 30 คน",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+        "url": "https://course.mytcas.com/programs/21660105300516A",
+        "degree_name_en": "Bachelor of Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 18500,
+        "raw_fee_text": "ค่าลงทะเบียนเรียน 18,500 บาท ต่อภาคเรียน และค่าธรรมเนียมแรกเข้าศึกษา 5,350 บาท (ค่าแรกเข้าชำระเฉพาะภาคเรียนแรกที่เข้าศึกษา) สามารถดูประกาศค่าธรรมเนียม ณ วันที่ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษาที่เว็บไซต์ https://admission.ssru.ac.th/login",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 60 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "รับ 80 คน",
+            "รอบ 4 Direct Admission": "รับ 50 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมคอมพิวเตอร์และเครือข่าย สาขาวิชาวิศวกรรมคอมพิวเตอร์และเครือข่าย (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยราชภัฏอุบลราชธานี วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/21710105300590A",
+        "degree_name_en": "Computer and Network Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 9076,
+        "raw_fee_text": "72,610 บาท",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 5 คน",
+            "รอบ 2 Quota": "รับ 5 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี",
+        "url": "https://course.mytcas.com/programs/31910102700901A",
+        "degree_name_en": "Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 14000,
+        "raw_fee_text": "100000 ตลอดหลักสูตร (14000 ต่อภาคเรียน)",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 14 คน",
+            "รอบ 2 Quota": "รับ 4 คน",
+            "รอบ 3 Admission": "รับ 4 คน",
+            "รอบ 4 Direct Admission": "รับ 2 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลธัญบุรี",
+        "url": "https://course.mytcas.com/programs/31910104300501A",
+        "degree_name_en": "Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 20000,
+        "raw_fee_text": "20000 บาท/ภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 20 คน",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. (วิศวกรรมคอมพิวเตอร์และระบบไอโอที) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+        "url": "https://course.mytcas.com/programs/31920104300501A",
+        "degree_name_en": "B.Eng. (Computer Engineering and IoT System)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 16120,
+        "raw_fee_text": "อัตราค่าบำรุงการศึกษา ภาคการศึกษาแรก 16120 บาท / ภาคการศึกษาถัดไป 11700 บาท",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 5 คน",
+            "รอบ 2 Quota": "รับ 15 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "รับ 10 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร พระนครเหนือ",
+        "url": "https://course.mytcas.com/programs/31940504300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 15000,
+        "raw_fee_text": "15000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 15 คน",
+            "รอบ 2 Quota": "รับ 15 คน",
+            "รอบ 3 Admission": "รับ 15 คน",
+            "รอบ 4 Direct Admission": "รับ 10 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ 4 ปี (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ ศาลายา",
+        "url": "https://course.mytcas.com/programs/31950101300501A",
+        "degree_name_en": "BachelorofEngineering(B.Eng.)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 15000,
+        "raw_fee_text": "สายวิทยาศาสตร์ค่าเทอมเหมาจ่าย 15,000/ภาคการศึกษา สายสังคมค่าเทอมเหมาจ่าย 12,000/ภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 5 คน",
+            "รอบ 2 Quota": "รับ 5 คน",
+            "รอบ 3 Admission": "รับ 15 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "อส.บ. เทคโนโลยีวิศวกรรมคอมพิวเตอร์ 4 ปี (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลรัตนโกสินทร์ วังไกลกังวล",
+        "url": "https://course.mytcas.com/programs/31950203300501A",
+        "degree_name_en": "BachelorofIndustrialTechnology(B.Ind.Tech.)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 15000,
+        "raw_fee_text": "สายวิทยาศาสตร์ค่าเทอมเหมาจ่าย 15,000/ภาคการศึกษา สายสังคมค่าเทอมเหมาจ่าย 12,000/ภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 10 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย สงขลา",
+        "url": "https://course.mytcas.com/programs/31970104300501A",
+        "degree_name_en": "Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 13750,
+        "raw_fee_text": "110,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 7 คน",
+            "รอบ 2 Quota": "รับ 2 คน",
+            "รอบ 3 Admission": "รับ 1 คน",
+            "รอบ 4 Direct Admission": "รับ 1 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมปัญญาประดิษฐ์และนวัตกรรมดิจิทัล (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย สงขลา",
+        "url": "https://course.mytcas.com/programs/31970104300502A",
+        "degree_name_en": "Artificial Intelligence and Digital Innovation Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 13750,
+        "raw_fee_text": "110,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 2 คน",
+            "รอบ 2 Quota": "รับ 2 คน",
+            "รอบ 3 Admission": "รับ 1 คน",
+            "รอบ 4 Direct Admission": "รับ 1 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์",
+            "วิศวกรรมปัญญาประดิษฐ์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์และการสื่อสาร (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลศรีวิชัย ตรัง",
+        "url": "https://course.mytcas.com/programs/31970615300501A",
+        "degree_name_en": "Information and Communication Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 13750,
+        "raw_fee_text": "110,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 10 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 4 Direct Admission": "รับ 20 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน นครราชสีมา",
+        "url": "https://course.mytcas.com/programs/31990103300501A",
+        "degree_name_en": "Programin Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 12000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 12,000 ต่อภาคเรียน หรือ 152,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 10 คน",
+            "รอบ 2 Quota": "รับ 4 คน",
+            "รอบ 3 Admission": "รับ 2 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยศรีปทุม",
+        "url": "https://course.mytcas.com/programs/40540111300501A",
+        "degree_name_en": "B.Sc. Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 43500,
+        "raw_fee_text": null,
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 10 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "รับ 20 คน"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต (วิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยหอการค้าไทย",
+        "url": "https://course.mytcas.com/programs/40560107300501A",
+        "degree_name_en": "B.Eng. (Computer Engineering and Artificial Intelligence)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 42500,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 340,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 60 คน",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 60 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ สาขาวิชาวศ.บ. วิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีมหานคร",
+        "url": "https://course.mytcas.com/programs/40610130300501A?major=A",
+        "degree_name_en": "Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 43600,
+        "raw_fee_text": "_",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 50 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยรังสิต",
+        "url": "https://course.mytcas.com/programs/40680111300501A",
+        "degree_name_en": "B.Eng. Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 49600,
+        "raw_fee_text": "ค่าเล่าเรียนตลอดหลักสูตร 396,800",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยธุรกิจบัณฑิตย์",
+        "url": "https://course.mytcas.com/programs/41030102300501A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 42125,
+        "raw_fee_text": "ค่าเล่าเรียนตลอดหลักสูตร 337000 บาท",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "รับ 30 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเกษมบัณฑิต วิทยาเขตร่มเกล้า",
+        "url": "https://course.mytcas.com/programs/41800204300501A",
+        "degree_name_en": "B.Eng. (Computer Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 35250,
+        "raw_fee_text": "282,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 40 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมคอมพิวเตอร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยสยาม วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/41810101300501A",
+        "degree_name_en": "Bachelor of Engineering (Computer Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 37938,
+        "raw_fee_text": "ประมาณการอัตราค่าเล่าเรียน ตลอดหลักสูตร 303,500 บาท",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์ (ภาษาไทย ปกติ)",
+        "university": "สถาบันการจัดการปัญญาภิวัฒน์ แจ้งวัฒนะ นนทบุรี",
+        "url": "https://course.mytcas.com/programs/49180101303701A",
+        "degree_name_en": "Bachelor of Engineering Program in Computer Engineering and Artificial Intelligence",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 48000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 384,000 บาท ตลอดหลักสูตร (มีทุนการศึกษาสนับสนุน และสามารถกู้ กยศ.2 ได้)",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 40 คน",
+            "รอบ 2 Quota": "รับ 15 คน",
+            "รอบ 3 Admission": "รับ 15 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมคอมพิวเตอร์",
+            "วิศวกรรมปัญญาประดิษฐ์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมปัญญาประดิษฐ์และระบบอัจฉริยะ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยสงขลานครินทร์ ภูเก็ต",
+        "url": "https://course.mytcas.com/programs/10100329303701A",
+        "degree_name_en": "Bachelor of Engineering Programe in Artificial Intelligence and System Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 38000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 38,000 บาทต่อภาคการศึกษา (เรียน 6 ภาคการศึกษา) หรือตลอดหลักสูตร 228,000 บาท และต้องชำระค่าธรรมเนียมแรกเข้าอีก 15,000 บาท",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 315 คน",
+            "รอบ 2 Quota": "รับ 120 คน",
+            "รอบ 3 Admission": "รับ 40 คน",
+            "รอบ 4 Direct Admission": "รับ 20 คน"
+        },
+        "keywords": [
+            "วิศวกรรมปัญญาประดิษฐ์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมระบบอัจฉริยะ ปริญญาตรี 4 ปี (พื้นที่การศึกษาราชบุรี) สาขาวิชาวิศวกรรมระบบอัจฉริยะ - วศ.บ 4 ปี (พื้นที่การศึกษาราชบุรี) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี บางมด",
+        "url": "https://course.mytcas.com/programs/10140136303701A",
+        "degree_name_en": "Bachelor of Engineering Program in Intelligence Systems Engineering 4-year undergraduate program (Rajaburi educational region)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25000,
+        "raw_fee_text": "https://kmutt.me/TUITION-FEES-BS-KMUTT",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "",
+            "รอบ 2 Quota": "รับ 205 คน",
+            "รอบ 3 Admission": "รับ 60 คน",
+            "รอบ 4 Direct Admission": "รับ 50 คน"
+        },
+        "keywords": [
+            "วิศวกรรมปัญญาประดิษฐ์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมปัญญาประดิษฐ์และการเป็นผู้ประกอบการ (หลักสูตรนานาชาติ) (หลักสูตรร่วม สจล. และ ม.กรุงเทพ) (Joint Degree - นานาชาติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ลาดกระบัง",
+        "url": "https://course.mytcas.com/programs/10160101303701I",
+        "degree_name_en": "B.Eng. Ai Engineering and Entrepreneurship (International Program) Joint Degree between KMITL and Bangkok University",
+        "program_type": "Joint Degree - นานาชาติ",
+        "tuition_fee": 175000,
+        "raw_fee_text": "175,000 ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 125 คน",
+            "รอบ 2 Quota": "รับ 75 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": "รับ 80 คน"
+        },
+        "keywords": [
+            "วิศวกรรมปัญญาประดิษฐ์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.สาขาวิชาวิศวกรรมปัญญาประดิษฐ์และการสั่งการ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยอุบลราชธานี วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10180113303703A",
+        "degree_name_en": "Bachelor of Engineering Program in Artificial Intelligence and Prompt Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 28000,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 28,000 ต่อภาคการศึกษา หรือ 224,000 ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 2 Quota": "รับ 40 คน",
+            "รอบ 3 Admission": "รับ 40 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมปัญญาประดิษฐ์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์ (หลักสูตรนานาชาติ)",
+        "university": "จุฬาลงกรณ์มหาวิทยาลัย",
+        "url": "https://course.mytcas.com/programs/10010121302901E",
+        "degree_name_en": "Bachelor of Engineering Program in Robotics and Artificial Intelligence Engineering (International Program)",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 84000,
+        "raw_fee_text": "ดูรายละเอียดเพิ่มเติม https://www.chula.ac.th/academics/admissions/tuition-and-fees/",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 45 คน",
+            "รอบ 2 Quota": "รับ 11 คน",
+            "รอบ 3 Admission": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ (นานาชาติ)",
+        "university": "มหาวิทยาลัยเกษตรศาสตร์ ศรีราชา",
+        "url": "https://course.mytcas.com/programs/10020328302901E",
+        "degree_name_en": "B.Eng. (Robotics and Automation System Engineering) (International Program)",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 46462,
+        "raw_fee_text": "371,700",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "รับ 20 คน"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเชียงใหม่ วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10040106302901A",
+        "degree_name_en": null,
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 29000,
+        "raw_fee_text": "232,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 35 คน",
+            "รอบ 2 Quota": "รับ 44 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ ปริญญาตรี 4 ปี สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี บางมด",
+        "url": "https://course.mytcas.com/programs/10140134302901A",
+        "degree_name_en": "Bachelor of Engineering Program in Robotics and Automation Engineering 4-year undergraduate program",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 55000,
+        "raw_fee_text": "https://kmutt.me/TUITION-FEES-BS-KMUTT",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 134 คน",
+            "รอบ 2 Quota": "รับ 35 คน",
+            "รอบ 3 Admission": "รับ 10 คน",
+            "รอบ 4 Direct Admission": ""
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมหุ่นยนต์และระบบอัตโนมัติ (หลักสูตรภาษาอังกฤษ) (ภาษาต่างประเทศ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ กรุงเทพฯ",
+        "url": "https://course.mytcas.com/programs/10150101302901D",
+        "degree_name_en": "Bachelor of Engineering Program in Robotics Engineering and Automation System (English Program)",
+        "program_type": "ภาษาต่างประเทศ",
+        "tuition_fee": 60000,
+        "raw_fee_text": "60,000 ต่อภาคเรียน",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 70 คน",
+            "รอบ 2 Quota": "รับ 60 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์ (หลักสูตรนานาชาติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ลาดกระบัง",
+        "url": "https://course.mytcas.com/programs/10160101302901E",
+        "degree_name_en": "B.Eng. Robotics and AI Engineering (International Program)",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 105000,
+        "raw_fee_text": "105,000 ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 105 คน",
+            "รอบ 2 Quota": "รับ 20 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. เทคโนโลยีวัสดุชาญฉลาด วศ.บ.วิศวกรรมหุ่นยนต์และปัญญาประดิษฐ์ (หลักสูตรนานาชาติ) หลักสูตรสองปริญญา (Double Degree - นานาชาติ พิเศษ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ลาดกระบัง",
+        "url": "https://course.mytcas.com/programs/10160111302502G",
+        "degree_name_en": "B.Eng. Smart Materials Technology and Robotics and AI (Dual Degree) (International Program)",
+        "program_type": "Double Degree - นานาชาติ พิเศษ",
+        "tuition_fee": 120000,
+        "raw_fee_text": "120,000 ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 42 คน",
+            "รอบ 2 Quota": "รับ 37 คน",
+            "รอบ 3 Admission": "รับ 15 คน",
+            "รอบ 4 Direct Admission": "รับ 30 คน"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมหุ่นยนต์และอิเล็กทรอนิกส์ (ภาษาไทย ปกติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ชุมพรเขตรอุดมศักดิ์ จังหวัดชุมพร",
+        "url": "https://course.mytcas.com/programs/10160220303401A",
+        "degree_name_en": "B.Eng. Robotics and intelligent Electronics Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 20000,
+        "raw_fee_text": "20,000 บาท ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 60 คน",
+            "รอบ 2 Quota": "รับ 34 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "รับ 30 คน"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "อุตสาหกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยนครพนม",
+        "url": "https://course.mytcas.com/programs/10260110302901A",
+        "degree_name_en": "Bachelor of Industrial Technology Program in Industrial Robotics and Automatic Systems",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 12500,
+        "raw_fee_text": "อัตราค่าเล่าเรียน โดยประมาณ 100,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "รับ 30 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.วิศวกรรมหุ่นยนต์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยราชภัฏสวนสุนันทา",
+        "url": "https://course.mytcas.com/programs/21660105302916A",
+        "degree_name_en": "Bachelor of Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 18500,
+        "raw_fee_text": "ค่าลงทะเบียนเรียน 18,500 บาท ต่อภาคเรียน และค่าธรรมเนียมแรกเข้าศึกษา 5,350 บาท (ค่าแรกเข้าชำระเฉพาะภาคเรียนแรกที่เข้าศึกษา) สามารถดูประกาศค่าธรรมเนียม ณ วันที่ประกาศรายชื่อผู้มีสิทธิ์เข้าศึกษาที่เว็บไซต์ https://admission.ssru.ac.th/login",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 12 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "รับ 40 คน",
+            "รอบ 4 Direct Admission": "รับ 15 คน"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. (วิศวกรรมอัตโนมัติและหุ่นยนต์) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ",
+        "url": "https://course.mytcas.com/programs/31920104302901A",
+        "degree_name_en": "B.Eng. (Automation and Robotics Engineering)",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 16120,
+        "raw_fee_text": "อัตราค่าบำรุงการศึกษา ภาคการศึกษาแรก 16120 บาท / ภาคการศึกษาถัดไป 11700 บาท",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 30 คน",
+            "รอบ 2 Quota": "รับ 32 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "รับ 60 คน"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิทยาศาสตรบัณฑิต (วิทยาการหุ่นยนต์สุขภาพ) (Joint Degree - นานาชาติ)",
+        "university": "มหาวิทยาลัยหัวเฉียวเฉลิมพระเกียรติ",
+        "url": "https://course.mytcas.com/programs/40730105302904I",
+        "degree_name_en": "Health Robotices",
+        "program_type": "Joint Degree - นานาชาติ",
+        "tuition_fee": 122500,
+        "raw_fee_text": "980,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมหุ่นยนต์และระบบอัตโนมัติ (ภาษาไทย ปกติ)",
+        "university": "สถาบันการจัดการปัญญาภิวัฒน์ แจ้งวัฒนะ นนทบุรี",
+        "url": "https://course.mytcas.com/programs/49180101301901A",
+        "degree_name_en": "Bachelor of Engineering Program in Robotics and Automation Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 62812,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 502,500 ตลอดหลักสูตร (มีทุนการศึกษาสนับสนุน และสามารถกู้ กยศ.ได้)",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 20 คน",
+            "รอบ 2 Quota": "ไม่เปิดรับสมัครในรอบนี้",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมหุ่นยนต์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. สาขาวิชาวิศวกรรมซอฟต์แวร์และความรู้ (นานาชาติ)",
+        "university": "มหาวิทยาลัยเกษตรศาสตร์ บางเขน",
+        "url": "https://course.mytcas.com/programs/10020105301001E",
+        "degree_name_en": "B.Eng. (Software and Knowledge Engineering) (International Program)",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 60700,
+        "raw_fee_text": null,
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 40 คน",
+            "รอบ 2 Quota": "รับ 33 คน",
+            "รอบ 3 Admission": "รับ 30 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วิศวกรรมศาสตรบัณฑิต (วิศวกรรมสื่อดิจิทัล) หลักสูตรนานาชาติ วิศวกรรมสื่อดิจิทัล หลักสูตรนานาชาติ",
+        "university": "มหาวิทยาลัยขอนแก่น ขอนแก่น",
+        "url": "https://course.mytcas.com/programs/10030104301001E",
+        "degree_name_en": "Bachelor of Engineering (Digital Media Engineering) International Program",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 45000,
+        "raw_fee_text": "ค่าธรรมเนียมการศึกษา (ชาวไทย) 45000 บาท/เทอม",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 24 คน",
+            "รอบ 2 Quota": "รับ 12 คน",
+            "รอบ 3 Admission": "รับ 9 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วท.บ.วิศวกรรมซอฟต์แวร์ (นานาชาติ)",
+        "university": "มหาวิทยาลัยเชียงใหม่ วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10040121220401E",
+        "degree_name_en": null,
+        "program_type": "นานาชาติ",
+        "tuition_fee": 40000,
+        "raw_fee_text": "320,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 25 คน",
+            "รอบ 2 Quota": "รับ 25 คน",
+            "รอบ 3 Admission": "รับ 25 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วท.บ.ดิจิทัลเกม (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยเชียงใหม่ วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10040121220402A",
+        "degree_name_en": null,
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 38000,
+        "raw_fee_text": "304,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 35 คน",
+            "รอบ 2 Quota": "รับ 25 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วท.บ.นวัตกรรมดิจิทัล (นานาชาติ)",
+        "university": "มหาวิทยาลัยเชียงใหม่ วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/10040124220403E",
+        "degree_name_en": null,
+        "program_type": "นานาชาติ",
+        "tuition_fee": 55000,
+        "raw_fee_text": "440,000",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 90 คน",
+            "รอบ 2 Quota": "รับ 65 คน",
+            "รอบ 3 Admission": "รับ 27 คน",
+            "รอบ 4 Direct Admission": "รับ 25 คน"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ.สาขาวิชาวิศวกรรมซอฟต์แวร์ (โครงการพิเศษ) (ภาษาไทย พิเศษ)",
+        "university": "มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต",
+        "url": "https://course.mytcas.com/programs/10050210301001B",
+        "degree_name_en": "Bachelor of Engineering Program in Software Engineering",
+        "program_type": "ภาษาไทย พิเศษ",
+        "tuition_fee": 52000,
+        "raw_fee_text": "52,000 บาท ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 35 คน",
+            "รอบ 2 Quota": "รับ 11 คน",
+            "รอบ 3 Admission": "รับ 25 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมด้านความปลอดภัยไซเบอร์ (หลักสูตรนานาชาติ) (Double Degree - นานาชาติ ปกติ)",
+        "university": "มหาวิทยาลัยศรีนครินทรวิโรฒ องครักษ์",
+        "url": "https://course.mytcas.com/programs/10090209301001P",
+        "degree_name_en": "Bachelor of Engineering Program in Cyber Security Engineering (International program)",
+        "program_type": "Double Degree - นานาชาติ ปกติ",
+        "tuition_fee": 55000,
+        "raw_fee_text": null,
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 12 คน",
+            "รอบ 2 Quota": "รับ 5 คน",
+            "รอบ 3 Admission": "รับ 14 คน",
+            "รอบ 4 Direct Admission": "รับ 13 คน"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมซอฟต์แวร์ (หลักสูตรนานาชาติ)",
+        "university": "สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง ลาดกระบัง",
+        "url": "https://course.mytcas.com/programs/10160101301001E",
+        "degree_name_en": "B.Eng. Software Engineering (International Program)",
+        "program_type": "นานาชาติ",
+        "tuition_fee": 90000,
+        "raw_fee_text": "90,000 ต่อภาคการศึกษา",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 80 คน",
+            "รอบ 2 Quota": "รับ 15 คน",
+            "รอบ 3 Admission": "รับ 5 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิทยาศาสตรบัณฑิต (วท.บ.) สาขาวิชาวิศวกรรมซอฟต์แวร์ ภาคปกติ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยบูรพา",
+        "url": "https://course.mytcas.com/programs/10190110220401A",
+        "degree_name_en": "Bachelor of Science Program in Software Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 25000,
+        "raw_fee_text": null,
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 45 คน",
+            "รอบ 2 Quota": "รับ 25 คน",
+            "รอบ 3 Admission": "รับ 35 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วศ.บ. วิศวกรรมซอฟต์แวร์ (จัดการเรียนการสอนเป็นภาษาอังกฤษ) (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยแม่ฟ้าหลวง",
+        "url": "https://course.mytcas.com/programs/10240113301001A",
+        "degree_name_en": "Bachelor of Engineering Program in Software Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 30000,
+        "raw_fee_text": "ค่าธรรมเนียมการศึกษา 30,000 ต่อภาคการศึกษา หรือ 240,000 บาท ตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 38 คน",
+            "รอบ 2 Quota": "รับ 53 คน",
+            "รอบ 3 Admission": "รับ 60 คน",
+            "รอบ 4 Direct Admission": "รับ 20 คน"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "หลักสูตรวิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมซอฟต์แวร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยพะเยา",
+        "url": "https://course.mytcas.com/programs/10270102301001A",
+        "degree_name_en": "Bachelor of Engineering Program in Software Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 21000,
+        "raw_fee_text": "https://admission.up.ac.th/uploads/admission/media/file/66ed2582eb5b7LIYYa.pdf",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 40 คน",
+            "รอบ 2 Quota": "รับ 40 คน",
+            "รอบ 3 Admission": "รับ 20 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    },
+    {
+        "program_name": "วท.บ.วิศวกรรมซอฟต์แวร์ สาขาวิชาวิศวกรรมซอฟต์แวร์ (ภาษาไทย ปกติ)",
+        "university": "มหาวิทยาลัยราชภัฏอุบลราชธานี วิทยาเขตหลัก",
+        "url": "https://course.mytcas.com/programs/21710111220458A",
+        "degree_name_en": "Bachelor of Science Program in Software Engineering",
+        "program_type": "ภาษาไทย ปกติ",
+        "tuition_fee": 10220,
+        "raw_fee_text": "อัตราค่าเล่าเรียน 10,220 บาทต่อภาคการศึกษา หรือ 81,760 บาทตลอดหลักสูตร",
+        "admission_rounds": {
+            "รอบ 1 Portfolio": "รับ 15 คน",
+            "รอบ 2 Quota": "รับ 10 คน",
+            "รอบ 3 Admission": "รับ 25 คน",
+            "รอบ 4 Direct Admission": "ไม่เปิดรับสมัครในรอบนี้"
+        },
+        "keywords": [
+            "วิศวกรรมซอฟต์แวร์"
+        ]
+    }
+]
