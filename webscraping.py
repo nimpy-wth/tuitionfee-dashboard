@@ -35,8 +35,9 @@ async def scrape_details(context, program_info):
         "url": program_info['url'],
         "degree_name_en": None,
         "program_type": None,
-        "tuition_per_semester": None,
+        "tuition_fee": None,
         "raw_fee_text": None,
+        "admission_rounds": {},
     }
 
     try:
@@ -53,6 +54,14 @@ async def scrape_details(context, program_info):
 
         data["degree_name_en"] = await get_text_by_dt("ชื่อหลักสูตรภาษาอังกฤษ")
         data["program_type"] = await get_text_by_dt("ประเภทหลักสูตร")
+
+        round_locators = await details_page.locator('dt:has-text("รอบ")').all()
+        for dt_locator in round_locators:
+            round_name = (await dt_locator.inner_text()).strip()
+            if "Portfolio" in round_name or "Quota" in round_name or "Admission" in round_name or "Direct" in round_name:
+                slots_text = await dt_locator.locator('+ dd').inner_text()
+                data["admission_rounds"][round_name] = slots_text.strip()
+
         fee_text = await get_text_by_dt("ค่าใช้จ่าย")
         data["raw_fee_text"] = fee_text
         
@@ -101,12 +110,12 @@ async def scrape_details(context, program_info):
                     else:
                         tuition = fee_amount
 
-        data["tuition_per_semester"] = tuition
+        data["tuition_fee"] = tuition
 
         print(f"Scraping: {data['program_name']}")
         print(f" ├── University : {data['university']}")
         print(f" ├── Program Type: {data['program_type']}")
-        print(f" └── Tuition Fee (per semester): {data['tuition_per_semester']}\n")
+        print(f" └── Tuition Fee: {data['tuition_fee']}\n")
 
         return data
 
