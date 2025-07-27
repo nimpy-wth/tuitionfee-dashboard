@@ -103,7 +103,17 @@ app.layout = html.Div(className='main-container', children=[
                 {"name": "Program Type", "id": "program_type"},
                 {"name": "Tuition Fee", "id": "tuition_fee"},
             ],
-            style_cell={'fontFamily': 'Lato, sans-serif', 'padding': '10px'},
+            style_cell={
+                'fontFamily': 'Lato, sans-serif',
+                'padding': '10px',
+                'textAlign': 'left',
+                'whiteSpace': 'normal',
+                'height': 'auto',
+                'maxWidth': '250px',
+                'overflow': 'hidden',
+                'textOverflow': 'ellipsis'
+            },
+            style_table={'overflowX': 'auto'}, 
             style_header={'backgroundColor': '#f8f9fa', 'fontWeight': 'bold'},
             page_size=10,
             sort_action='native',
@@ -164,12 +174,27 @@ def update_dashboard(selected_keywords, selected_types, selected_rounds):
     ]
 
     # Bar Chart
-    tuition_bar_df = dff_clean.groupby('university')['tuition_per_semester'].mean().round(0).astype(int).sort_values(ascending=False).reset_index().head(15)
+    tuition_bar_df = (dff_clean[['university', 'program_name', 'tuition_per_semester']].sort_values(by='tuition_per_semester', ascending=False).head(15))
+
     fig_bar = px.bar(
-        tuition_bar_df, x='tuition_per_semester', y='university', orientation='h', text='tuition_per_semester'
+        tuition_bar_df,
+        x='tuition_per_semester',
+        y='university',
+        orientation='h',
+        text='tuition_per_semester',
+        hover_data=['program_name']
     )
-    fig_bar.update_traces(marker_color="#2c3e50", texttemplate='%{text:,.0f}', textposition='inside')
-    fig_bar.update_layout(title_text="Average Tuition per Semester (Top 15)", yaxis=dict(autorange="reversed"))
+
+    fig_bar.update_traces(
+        marker_color="#2c3e50",
+        texttemplate='%{text:,.0f}',
+        textposition='inside'
+    )
+
+    fig_bar.update_layout(
+        title_text="Tuition per Semester by Program (Top 15)",
+        yaxis=dict(autorange="reversed")
+    )
 
     # Donut Chart
     program_type_counts = dff['program_type'].value_counts().reset_index()
